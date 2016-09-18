@@ -1,32 +1,17 @@
 
-# README
-
 # rails-link-aggregator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This a link aggregator site which similar to Reddit or Hacker News. 
 
-Things you may want to cover:
+## Introduction
+A user can sign up and submit a link. Comments can be made as well as vote up or down on link submissions.
 
-* Ruby version
+This is based on the Reddit clone that [*Mackenzie Child: How To Build A Reddit Clone With Rails 4*](https://mackenziechild.me/12-in-12/1/) has build. 
 
-* System dependencies
+For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+## Feautures
 # User Authentication
-
 # Scaffold Links name url
 
