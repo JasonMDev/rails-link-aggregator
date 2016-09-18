@@ -12,6 +12,6 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 
 
 ## Feautures
-# User Authentication
-# Scaffold Links name url
+### User Authentication
+### Scaffold Links name url
 
