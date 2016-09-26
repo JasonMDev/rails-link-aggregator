@@ -12,6 +12,8 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 
 
 ## Feautures
-### User Authentication
+### User Authentication with devise Gem
+### Front-end with the bootstrap-sass gem
+### 
 ### Scaffold Links name url
 
