@@ -13,7 +13,16 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 
 ## Feautures
 ### User Authentication with devise Gem
-### Front-end with the bootstrap-sass gem
-### 
+### Front-end styling with the bootstrap-sass gem
+### Votable functionality with the Acts_as_votable gem
 ### Scaffold Links name url
+
+## Snapshots
+### Homepage
+### Individual Link Page
+### User Pages
+#### Signup Page
+#### Sign-in Page
+#### User Update Page
+
 
