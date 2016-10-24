@@ -19,6 +19,7 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 ### User Authentication with devise Gem
 ### Front-end styling with the bootstrap-sass gem
 ### Votable functionality with the Acts_as_votable gem
+### Simple form created using simple_form gem
 ### Scaffold Links name url
 ### Scaffold Comment link_id body user
 
@@ -29,7 +30,8 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 #### Signup Page
 #### Sign-in Page
 #### User Update Page
-### Comment
+### Comments
+#### Show one with and without "destroy"
 
 ## TODO:
 get commands
