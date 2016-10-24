@@ -16,6 +16,7 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 ### Front-end styling with the bootstrap-sass gem
 ### Votable functionality with the Acts_as_votable gem
 ### Scaffold Links name url
+### Scaffold Comment link_id body user
 
 ## Snapshots
 ### Homepage
@@ -24,5 +25,11 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 #### Signup Page
 #### Sign-in Page
 #### User Update Page
+### Comment
 
-
+## TODO:
+get commands
+#### Commands
+'''
+$ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
+'''

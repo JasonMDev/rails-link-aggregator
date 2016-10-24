@@ -43,6 +43,9 @@ gem 'bootstrap-sass'
 # Rails gem to allowing records to be votable
 gem 'acts_as_votable', '~> 0.10.0'
 
+# Forms made easy for Rails! It's tied to a simple DSL, with no opinion on markup.
+gem 'simple_form', '~> 3.3', '>= 3.3.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
