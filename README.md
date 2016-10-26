@@ -11,17 +11,25 @@ This is based on the Reddit clone that [*Mackenzie Child: How To Build A Reddit 
 For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 
 ## Software Versions
-### Rails 5.0.0.1
-### Ruby 2.3.0
-### RVM 1.27.0
+*   Rails 5.0.0.1
+*   Ruby 2.3.0
+*   RVM 1.27.0
 
 ## Feautures
+### Scaffold Links name url
 ### User Authentication with devise Gem
 ### Front-end styling with the bootstrap-sass gem
 ### Votable functionality with the Acts_as_votable gem
 ### Simple form created using simple_form gem
-### Scaffold Links name url
 ### Scaffold Comment link_id body user
+
+### Feautures
+*   **Scaffold** Links name url
+*   **User Authentication with devise Gem
+*   Front-end styling with the **bootstrap-sass gem**
+*   Votable functionality with the **Acts_as_votable gem**
+*   Simple form created using **simple_form gem**
+*   **Scaffold** Comment link_id body user
 
 ## Snapshots
 ### Homepage
@@ -36,9 +44,16 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 ## TODO:
 get commands
 #### Commands
-'''
-$ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
 
-$ rails g migration add_name_to_users name:string
+        $ rails g scaffold Link title:string url:string
+        $ rails generate devise:install
+        $ rails g devise:views
+        $ rails g devise User
+        $ rails g migration add_user_id_to_links user_id:integer:index
+        $ rails generate acts_as_votable:migration
+        $ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
+        $ rails g migration add_name_to_users name:string
 
-'''
+
+### snapshot
+[Read more words!](app/assets/images/signup.jpg)
