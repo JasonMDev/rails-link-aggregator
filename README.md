@@ -56,4 +56,4 @@ get commands
 
 
 ### snapshot
-[Read more words!](app/assets/images/signup.jpg)
+![Alt text](app/assets/images/signup.jpg?raw=true "Optional Title")
