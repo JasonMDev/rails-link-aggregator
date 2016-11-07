@@ -24,6 +24,18 @@ These are some of the feautures that have been added to the web page.
 *   Simple form created using **simple_form** gem
 *   Scaffold of Comment with "link_id", "body", and "user" as fields
 
+## Rails Commands
+This is the summary of the Rails Command used to generate the web page.
+
+        $ rails g scaffold Link title:string url:string
+        $ rails g devise:install
+        $ rails g devise:views
+        $ rails g devise User
+        $ rails g migration add_user_id_to_links user_id:integer:index
+        $ rails g acts_as_votable:migration
+        $ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
+        $ rails g migration add_name_to_users name:string
+
 ## Snapshots
 Here are some snapshots of specific pages of the wbesite.
 ### Homepage
@@ -38,27 +50,17 @@ Here you can view a link that has been submitted, and also delete the comment if
 ### View and Edit Link
 Users that  created the link also have acess to a "destroy" button
 ![Alt text](app/assets/images/LinkEdit.jpg?raw=true "Edit Link Page")
-#### Sign-up Page
+### Sign-up Page
 This is the user sign-up page.
 ![Alt text](app/assets/images/SignUp.jpg?raw=true "Sign-up Page")
-#### Sign-in Page
+### Sign-in Page
 This is the user sign-in page.
 ![Alt text](app/assets/images/SignIn.jpg?raw=true "Sign-in Page")
-#### User Update Page
+### User Update Page
 This is the user update page.
 ![Alt text](app/assets/images/EditAcc.jpg?raw=true "User Update Page")
 
 
-## Rails Commands
-This is the summary of the Rails Command used to generate the web page.
 
-        $ rails g scaffold Link title:string url:string
-        $ rails g devise:install
-        $ rails g devise:views
-        $ rails g devise User
-        $ rails g migration add_user_id_to_links user_id:integer:index
-        $ rails g acts_as_votable:migration
-        $ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
-        $ rails g migration add_name_to_users name:string
 
 
