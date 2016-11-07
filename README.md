@@ -16,44 +16,49 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 *   RVM 1.27.0
 
 ## Feautures
-### Scaffold Links name url
-### User Authentication with devise Gem
-### Front-end styling with the bootstrap-sass gem
-### Votable functionality with the Acts_as_votable gem
-### Simple form created using simple_form gem
-### Scaffold Comment link_id body user
-
-### Feautures
-*   **Scaffold** Links name url
-*   **User Authentication with devise Gem
-*   Front-end styling with the **bootstrap-sass gem**
-*   Votable functionality with the **Acts_as_votable gem**
-*   Simple form created using **simple_form gem**
-*   **Scaffold** Comment link_id body user
+These are some of the feautures that have been added to the web page.
+*   Scaffold of Links with "name" and "url" as fields
+*   User Authentication with devise Gem
+*   Front-end styling with the **bootstrap-sass** gem
+*   Votable functionality with the **Acts_as_votable** gem
+*   Simple form created using **simple_form** gem
+*   Scaffold of Comment with "link_id", "body", and "user" as fields
 
 ## Snapshots
+Here are some snapshots of specific pages of the wbesite.
 ### Homepage
-### Individual Link Page
-### User Pages
-#### Signup Page
+This is the landing page.
+![Alt text](app/assets/images/FrontPage.jpg?raw=true "Hompage")
+### Submit Individual Link Page
+Here you can submit a link.
+![Alt text](app/assets/images/SubmitLink.jpg?raw=true "Submit Individual Link Page")
+### Individual Link Page.
+Here you can view a link that has been submitted, and also delete the comment if the user has created it.
+![Alt text](app/assets/images/IndLinkPage.jpg?raw=true "Individual Link Page")
+### View and Edit Link
+Users that  created the link also have acess to a "destroy" button
+![Alt text](app/assets/images/LinkEdit.jpg?raw=true "Edit Link Page")
+#### Sign-up Page
+This is the user sign-up page.
+![Alt text](app/assets/images/SignUp.jpg?raw=true "Sign-up Page")
 #### Sign-in Page
+This is the user sign-in page.
+![Alt text](app/assets/images/SignIn.jpg?raw=true "Sign-in Page")
 #### User Update Page
-### Comments
-#### Show one with and without "destroy"
+This is the user update page.
+![Alt text](app/assets/images/EditAcc.jpg?raw=true "User Update Page")
 
-## TODO:
-get commands
-#### Commands
+
+## Rails Commands
+This is the summary of the Rails Command used to generate the web page.
 
         $ rails g scaffold Link title:string url:string
-        $ rails generate devise:install
+        $ rails g devise:install
         $ rails g devise:views
         $ rails g devise User
         $ rails g migration add_user_id_to_links user_id:integer:index
-        $ rails generate acts_as_votable:migration
+        $ rails g acts_as_votable:migration
         $ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
         $ rails g migration add_name_to_users name:string
 
 
-### snapshot
-![Alt text](app/assets/images/signup.jpg?raw=true "Optional Title")
