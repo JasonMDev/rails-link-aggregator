@@ -1,12 +1,12 @@
 
 # rails-link-aggregator
 
-This a link aggregator site which similar to Reddit or Hacker News. 
+This a link aggregator site which similar to Reddit or Hacker News.
 
 ## Introduction
 A user can sign up and submit a link. Comments can be made as well as vote up or down on link submissions.
 
-This is based on the Reddit clone that [*Mackenzie Child: How To Build A Reddit Clone With Rails 4*](https://mackenziechild.me/12-in-12/1/) has build. 
+This is based on the Reddit clone that [*Mackenzie Child: How To Build A Reddit Clone With Rails 4*](https://mackenziechild.me/12-in-12/1/) has build.
 
 For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 
@@ -23,18 +23,6 @@ These are some of the feautures that have been added to the web page.
 *   Votable functionality with the **Acts_as_votable** gem
 *   Simple form created using **simple_form** gem
 *   Scaffold of Comment with "link_id", "body", and "user" as fields
-
-## Rails Commands
-This is the summary of the Rails Command used to generate the web page.
-
-        $ rails g scaffold Link title:string url:string
-        $ rails g devise:install
-        $ rails g devise:views
-        $ rails g devise User
-        $ rails g migration add_user_id_to_links user_id:integer:index
-        $ rails g acts_as_votable:migration
-        $ rails g scaffold Comment link_id:integer:index body:text user:references --skip-stylesheets
-        $ rails g migration add_name_to_users name:string
 
 ## Snapshots
 Here are some snapshots of specific pages of the wbesite.
@@ -59,8 +47,3 @@ This is the user sign-in page.
 ### User Update Page
 This is the user update page.
 ![Alt text](app/assets/images/EditAcc.jpg?raw=true "User Update Page")
-
-
-
-
-
