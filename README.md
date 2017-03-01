@@ -26,7 +26,7 @@ These are some of the feautures that have been added to the web page.
 
 ## Further information
 ### Rails Commands
-Comamnd used to create models and controllers.
+Commands used to create models and controllers.
 [*link*](railsCommandInputs.md)
 
 ### Snapshots
