@@ -1,7 +1,7 @@
-![Alt text](app/assets/images/FrontPage.jpg?raw=true "Hompage")
-# rails-link-aggregator
 
+# rails-link-aggregator
 This a link aggregator site which similar to Reddit or Hacker News.
+![Alt text](app/assets/images/FrontPage.jpg?raw=true "Hompage")
 
 ## Introduction
 A user can sign up and submit a link. Comments can be made as well as vote up or down on link submissions.
@@ -31,4 +31,4 @@ Comamnd used to create models and controllers.
 
 ### Snapshots
 These are snapshots of the various pages of the app.
-![*link*](SNAPSHOTS.md)
+[*link*](SNAPSHOTS.md)
