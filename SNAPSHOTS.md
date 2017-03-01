@@ -1,5 +1,5 @@
 # Snapshots
-Here are some snapshots of specific pages of the wbesite.
+Here are some snapshots of specific pages of the website.
 
 ## Homepage
 This is the landing page.
@@ -14,7 +14,7 @@ Here you can view a link that has been submitted, and also delete the comment if
 ![Alt text](app/assets/images/IndLinkPage.jpg?raw=true "Individual Link Page")
 
 ## View and Edit Link
-Users that  created the link also have acess to a "destroy" button
+Users that  created the link also have access to a "destroy" button
 ![Alt text](app/assets/images/LinkEdit.jpg?raw=true "Edit Link Page")
 
 ## Sign-up Page
