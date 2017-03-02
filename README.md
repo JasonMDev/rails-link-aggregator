@@ -1,6 +1,6 @@
 
 # rails-link-aggregator
-This a link aggregator site which similar to Reddit or Hacker News.
+This a link aggregator site which is similar to Reddit or Hacker News.
 ![Alt text](app/assets/images/FrontPage.jpg?raw=true "Hompage")
 
 ## Introduction
@@ -16,7 +16,7 @@ For more information, see [*Mackenzie Child*](https://mackenziechild.me/).
 *   RVM 1.27.0
 
 ## Feautures
-These are some of the feautures that have been added to the web page.
+These are some of the features that have been added to the web page.
 *   Scaffold of Links with "name" and "url" as fields
 *   User Authentication with devise Gem
 *   Front-end styling with the **bootstrap-sass** gem
